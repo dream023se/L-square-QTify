@@ -1,0 +1,17 @@
+.navbar{
+  background-color: green;
+  height:70px;
+  width:100vw;
+  padding:0px 32px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.feedback{
+  background-color: black;
+  color: green;
+  border-radius:8px;
+    border-top-right-radius:8px;
+    border-bottom-right-radius:8px;
+  height:30px;
+}
