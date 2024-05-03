@@ -1,5 +1,5 @@
 
-
+import Hero from "../Hero/Hero";
 import React from "react";
 import styles from "./Navbar.module.css";
 import Logo from "../Logo/Logo";
@@ -16,6 +16,7 @@ const Navbar = () => {
                 <Search search={"Search a song of your choice"} />
                 <Button children={"Give Feedback"} />
             </nav>
+            <Hero/>
 
         </>
 
