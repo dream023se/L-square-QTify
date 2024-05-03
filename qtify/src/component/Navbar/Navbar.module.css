@@ -1,18 +1,10 @@
 .navbar{
   background-color: green;
-  height:70px;
-  /* width:100vw; */
-  flex-direction:row;
+  height:74px;
+  /* width:100%; */
   padding:0px 32px;
   display:flex;
   align-items:center;
   justify-content:space-between;
 }
-.feedback{
-  background-color: black;
-  color: green;
-  border-radius:8px;
-    border-top-right-radius:8px;
-    border-bottom-right-radius:8px;
-  height:30px;
-}
+/* https://l-square-q-tify-d2a4.vercel.app/ */
