@@ -3,37 +3,18 @@ import styles from "../Search/Search.module.css";
 
 import SearchIcon from '@mui/icons-material/Search';
 
-function Search({searchData, placeholder})
-{
- let value;
-    const onSubmit=(e,value)=>{
-        e.preventDefault();
 
-    }
-return (
-    <div style={{position:'relative'}}>
-        <form
-        className={styles.wrapper}
-      onSubmit={(e)=>{
-        onSubmit(e, value);
-      }}
-      >
-        <div>
+const Search = ({search}) => {
+
+    return (
+        <form className={styles.wrapper}>
             <input
-            name="album"
-            className={styles.search}
-            placeholder={placeholder}
-            required
+                className={styles.search}
+                placeholder={search}
             />
-        </div>
-        <div>
-            <button className={styles.searchButton} type="submit">
-                <SearchIcon/>
-            </button>
-        </div>
-      </form>
-    </div>
-)
+            <button className={styles.searchButton} type="submit"><SearchIcon style={{justifyContent:"center"}} /></button>
+        </form>
+    );
 }
 
 export default Search;
