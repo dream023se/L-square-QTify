@@ -5,7 +5,8 @@ export default function Logo()
 {
     return (
    <>
-   <img src={LogoImage} alt="Qtifylogo" left={32} height={34} width={67}/> 
+   <div> <img src={LogoImage} alt="Qtifylogo" left={32} height={34} width={67}/> </div>
+  
    </> 
     )
 }
