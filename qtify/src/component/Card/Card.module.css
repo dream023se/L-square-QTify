@@ -1,0 +1,46 @@
+.cardContainer{
+    width:160px  !important;
+    height: 232px;
+    gap: 6px;
+}
+
+.customCard{
+    width:159px !important;
+    height: 205px !important;
+    border-radius: 10px !important;
+    background-color: #ffffff !important;
+}
+
+.cardImg{
+    width: 159px !important;
+    height: 170px !important;
+    border-radius: 10px 10px 0px 0px !important;
+    object-fit: contain !important;
+}
+.chipTest{
+width: 85px !important;
+height: 23px !important;
+/* top: 176px !important;
+left: 8px !important; */
+/* padding: 4px 8px 4px 8px !important; */
+/* gap: 1px !important; */
+color:white !important;
+border-radius: 10px !important;
+background-color:#121212 !important;
+font-family: Poppins !important;
+font-size: 10px !important;
+font-weight: 400 !important;
+line-height: 15px !important;
+text-align: left !important;
+
+
+}
+
+.cardText{
+    font-family: Poppins !important;
+font-size: 14px !important;
+font-weight: 400 !important;
+line-height: 21px !important;
+text-align: left !important;
+color:#ffffff !important;
+}

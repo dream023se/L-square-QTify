@@ -1,24 +1,37 @@
+.container{
+    height: 270px;  
+background-color: black;
+
+
+
+}
 .Hero {
-    height: 270px;
+    /* height: 270px; */
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    /* background-color: black; */
   }
   
   .HeroTitle {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    line-height: 48px;
-    font-weight: 600;
-    margin: 20px;
-    color: white;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* line-height: 48px; */
+    /* font-weight: 600; */
+    /* margin: 20px; */
+     color: white; 
+    height:100px;
+    width:556px;
   }
-  .HeroTitle > h1{
-      height: 48px;
+  .HeroTitle p{
+      /* height: 48px; */
+      font-family: Poppins ;
       font-size: 32px;
+      font-weight: 600;
+      text-align: center;
+      line-height: 48px; 
   }
   .HeroImage {
     height: 212px;

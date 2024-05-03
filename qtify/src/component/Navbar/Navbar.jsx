@@ -16,7 +16,7 @@ const Navbar = () => {
                 <Search search={"Search a song of your choice"} />
                 <Button children={"Give Feedback"} />
             </nav>
-            <Hero/>
+          
 
         </>
 

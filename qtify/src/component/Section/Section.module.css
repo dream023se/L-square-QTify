@@ -1,0 +1,37 @@
+.topAlbumContainer{
+    height:280px;
+    width:1376px;
+    margin-left: 32px;
+}
+
+.buttonContainer{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.buttonContainer h2{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+text-align: left;
+color:white;
+
+}
+.buttonContainer button{
+    background-color: black;
+    color: green;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+text-align: right;
+border: 0;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
