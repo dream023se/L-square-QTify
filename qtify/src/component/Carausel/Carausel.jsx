@@ -20,7 +20,7 @@ const Controls = ({data}) =>{
         swiper.slideTo(0)
     },[data])
 }
-const Carausel = ({data}) => {
+const Carausel = ({data,type}) => {
   return (
     <div>
       <>
@@ -35,7 +35,7 @@ const Carausel = ({data}) => {
         <Controls data = {data} />
         <CarauselLeftBtn />
         <CarauselRightBtn />
-        {data.map((item,index) =>(<SwiperSlide key={index}><Cards data={item} /></SwiperSlide>))}
+        {data.map((item,index) =>(<SwiperSlide key={index}><Cards data={item} type={type}/></SwiperSlide>))}
         
         
       </Swiper>

@@ -7,11 +7,12 @@ import Section from './component/Section/Section';
 import { useEffect, useState } from 'react';
 import { getTopAlbumData } from './api/service';
 import { getNewAlbumData } from './api/service';
-
+import { getSongData } from './api/service';
 
 function App() {
    const[topAlbum,setTopAlbum] = useState([])
    const[NewAlbum,setNewAlbum] = useState([])
+   const[SongAlbum,setSongAlbum] = useState([])
 
    const topAlbumData = async() =>{
       const res = await getTopAlbumData();
@@ -21,9 +22,14 @@ function App() {
     const resData = await getNewAlbumData();
     setNewAlbum(resData)
  }
+ const songData = async() =>{
+  const resSong = await getSongData();
+  setSongAlbum(resSong)
+}
    useEffect(() =>{
     topAlbumData();
     NewAlbumData();
+    songData();
    },[])
 
    
@@ -32,8 +38,9 @@ function App() {
 
    <Navbar/>
    <Hero/>
-   <Section data={topAlbum} title="Top Album"/>
-   <Section data={NewAlbum} title="New Album"/>
+   <Section data={topAlbum} title="Top Album" type="album"/>
+   <Section data={NewAlbum} title="New Album" type="album"/>
+   <Section data={SongAlbum} title="Songs" type="song"/>
    
     </>
   );

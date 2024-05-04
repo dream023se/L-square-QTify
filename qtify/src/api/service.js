@@ -21,3 +21,26 @@ export const getNewAlbumData = async() => {
         console.error(e);
     }
 }
+
+export const getSongData = async() => {
+    try{
+        const Songresponse = await axios.get(`https://qtify-backend-labs.crio.do/songs`)
+        return Songresponse.data;
+    }
+    catch(e)
+    {
+        console.error(e);
+    }
+}
+
+export const getgenreData = async() => {
+    try{
+        const Tabresponse = await axios.get(`https://qtify-backend-labs.crio.do/genres`)
+        return Tabresponse.data;
+    }
+    catch(e)
+    {
+        console.error(e);
+    }
+}
+
