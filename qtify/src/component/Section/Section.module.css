@@ -1,7 +1,9 @@
 .topAlbumContainer{
-    height:580px;
-    width:1376px;
+    min-height:280px;
+    width:95%;
     margin-left: 32px;
+    gap: 32px;
+    margin-bottom: 10px;
 }
 
 .buttonContainer{
@@ -34,4 +36,5 @@ border: 0;
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
+    position: relative;
 }
