@@ -28,6 +28,7 @@ const Cards = ({data}) => {
      <Typography className={styles.cardText} gutterBottom variant="h5" component="div">
      {data.title}
    </Typography>
+   
    </Box>
   )
 }
